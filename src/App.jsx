@@ -1,3 +1,4 @@
+import "./index.css"
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from "./components/Navbar";
 import Footer from './components/Footer';
@@ -6,6 +7,8 @@ import About from './pages/About';
 import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
 import ParticleBackground from './components/ParticleBackground';
+import ScrollToTop from "./components/ScrollToTop";
+
 
 
 
@@ -13,10 +16,12 @@ function App() {
 
   return (
    <Router>
+    {/* Makes sure the page start from the top */}
+    <ScrollToTop/> 
     {/* Particle Background - Always behind all content */}
     <ParticleBackground />
 
-    <div className="relative z-10 min-h-screen">
+    <div className="relative min-h-screen z-10">
     <Navbar/>
       <Routes>
         <Route path="/" element={<Home />} />

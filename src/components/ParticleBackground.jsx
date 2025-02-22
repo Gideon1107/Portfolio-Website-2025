@@ -15,13 +15,20 @@ const ParticleBackground = () => {
     }, []);
 
     const particlesConfig = { 
-        fullScreen: { enable: true, zIndex: -1 },
+        style: {
+            position: "absolute",
+            top: 0,
+            left: 0,
+            width: "100%",
+            height: "100vh",
+            zIndex: -1,
+        },        
         background: { color: { value: "#000000" } },
         fpsLimit: 120,
         interactivity: {
             events: {
                 onClick: { enable: false, mode: "push" },
-                onHover: { enable: true, mode: "repulse" },
+                onHover: { enable: false, mode: "repulse" },
                 resize: true,
             },
             modes: {
@@ -98,7 +105,7 @@ const ParticleBackground = () => {
             {init && (
                 <Particles
                     id="tsparticles"
-                    className="w-full h-full fixed top-0 left-0 -z-10"
+                    className="w-full h-screen fixed top-0 left-0 -z-10 bg-no-repeat bg-cover"
                     options={particlesConfig}
                 />
             )}

@@ -1,6 +1,6 @@
 import { Link, NavLink } from "react-router-dom"
 import { useState, useEffect } from "react";
-import logo from "../assets/logo-new.png"
+import logo from "../assets/brand.png"
 import { GrHome } from "react-icons/gr";
 import { AiOutlineUser } from "react-icons/ai";
 import { LiaLaptopCodeSolid } from "react-icons/lia";
@@ -45,13 +45,13 @@ const Navbar = () => {
           <img
             src={logo}
             alt="logo"
-            className="w-[95px] h-[15px] sm:w-[160px] sm:h-[25px] cursor-pointer"
+            className="w-[125px] h-[18px] sm:w-[160px] sm:h-[25px] cursor-pointer"
           />
         </Link>
 
         {/* Desktop Links */}
         <nav className="hidden sm:block">
-          <ul className="flex gap-12">
+          <ul className="flex lg:gap-12 md:gap-8">
             <li className="raleway-link flex items-center gap-2 text-white">
               <NavLink to="/" className={linkstyle}><GrHome /> Home</NavLink>
             </li>
@@ -72,20 +72,20 @@ const Navbar = () => {
           {/* Cross Icon */}
           <RxCross1
             onClick={toggleMobileMenu}
-            className={`text-[#C770F0] text-2xl cursor-pointer transition-all duration-500 ease-in-out transform absolute right-[1px] ${isMenuOpen ? 'opacity-100 -rotate-180' : 'opacity-0 rotate-0'
+            className={`text-[#ffff] text-2xl cursor-pointer transition-all duration-500 ease-in-out transform absolute right-[1px] ${isMenuOpen ? 'opacity-100 -rotate-180' : 'opacity-0 rotate-0'
               }`}
           />
           {/* Menu Icon */}
           <HiOutlineMenuAlt3
             onClick={toggleMobileMenu}
-            className={`text-[#C770F0] text-2xl cursor-pointer transition-all duration-500 ease-in-out transform absolute right-[1px] ${isMenuOpen ? 'opacity-0 -rotate-180' : 'opacity-100 rotate-0'
+            className={`text-[#ffff] text-2xl cursor-pointer transition-all duration-500 ease-in-out transform absolute right-[1px] ${isMenuOpen ? 'opacity-0 -rotate-180' : 'opacity-100 rotate-0'
               }`}
           />
         </div>
       </div>
 
       {/* Mobile Menu */}
-      <div className={`fixed top-[54px] left-0 w-full transition-all duration-500 ease-in-out bg-[#1b1a2ea9] backdrop-blur-[15px]
+      <div className={`z-10 fixed top-[54px] left-0 w-full transition-all duration-500 ease-in-out bg-[#1b1a2ea9] backdrop-blur-[15px]
           ${isMenuOpen ? "opacity-100 max-h-screen pt-6 pb-10" : "opacity-0 max-h-0 overflow-hidden"}`}>
         <ul className="flex flex-col gap-10 justify-center w-full items-center">
           <li className="raleway-link flex items-center gap-2 text-white">
