@@ -1,6 +1,6 @@
 import FindMe from "../components/FindMe"
 import Hero from "../components/Hero"
-import Info from "../components/info"
+import Info from "../components/Info"
 
 const Home = () => {
   return (
