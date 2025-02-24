@@ -45,7 +45,7 @@ const Resume = () => {
         initial={{ opacity: 0, y: 50 }} // Start invisible and move up
         animate={{ opacity: 1, y: 35 }} // Fade in and slide into place
         transition={{ duration: 0.8, ease: "easeOut" }} // Smooth transition
-        className="pb-22 max-sm:w-[400px]">
+        className="mb-18 max-sm:w-[400px]">
         <Document file={pdf} onLoadSuccess={onDocumentLoadSuccess} className="flex justify-center overflow-y-hidden max-sm:overflow-x-scroll max-sm:w-auto">
           <Page pageNumber={pageNumber}/>
         </Document>
