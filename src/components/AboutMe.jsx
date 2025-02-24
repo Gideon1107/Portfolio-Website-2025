@@ -17,22 +17,22 @@ const AboutMe = () => {
                         <h1 className="text-4xl font-medium">Know Who <span className="text-[#76d32e]">I AM</span></h1>
                     </div>
                     <div className="flex flex-col gap-5">
-                        <p className="text-[20px] font-medium leading-loose">
+                        <p className="text-base sm:text-[20px] font-normal leading-loose text-justify">
                             Hi again! <span className="text-[#76d32e] font-bold">I&apos;m GIDEON AYENI</span>, a software engineer based in <span className="text-[#76d32e] font-bold">England, UK</span> with a passion for building <span className="text-[#76d32e]">scalable software solutions</span> that solve real-world problems.
                         </p>
-                        <p className="leading-normal text-[20px] font-medium">
+                        <p className="leading-normal text-base sm:text-[20px] font-normal text-justify">
                             My journey into Tech started with a <span className="text-[#76d32e] italic">Bachelor&apos;s</span> degree in <span className="text-[#76d32e] italic">Electrical and Electronics Engineering</span>, followed by a <span className="text-[#76d32e] italic">Master&apos;s</span> in <span className="text-[#76d32e] italic">Robotics </span>and Smart Technologies. This background has given me a strong foundation in both hardware and software systems, allowing me to approach software engineering with a <span className="text-[#76d32e]">unique perspective</span>—focusing on building <span className="text-[#76d32e]">intelligent, efficient, and scalable applications</span>.
                         </p>
 
-                        <p className="leading-normal text-[20px] font-medium">
+                        <p className="leading-normal text-base sm:text-[20px] font-normal text-justify">
                             Currently, I specialize in <span className="text-[#76d32e] italic">full-stack web development</span>, working with modern technologies. I&apos;m always looking for opportunities to contribute to impactful projects, continuously learning new technologies, and <span className="text-[#76d32e]">collaborating</span> with like-minded developers.
                         </p>
 
-                        <p className="leading-normal text-[20px] font-medium pt-10 pb-10">
+                        <p className="leading-normal text-base sm:text-[20px] font-normal pt-10 pb-10 text-justify">
                             When I&apos;m not coding, you&apos;ll find me on the football pitch ⚽, playing games 🎮, or exploring the latest in tech innovations
                         </p>
 
-                        <p className="leading-normal text-[20px] font-medium pb-5">
+                        <p className="leading-normal text-base sm:text-[20px] font-normal pb-5 text-justify">
                             I believe in <span className="text-[#76d32e]">turning ideas into reality</span> through code, and I&apos;m excited about working on projects that challenge me and push my skills to the next level. <span className="text-[#76d32e] italic">Let&apos;s connect</span> and build something amazing together!
                         </p>
 
