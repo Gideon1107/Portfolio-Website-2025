@@ -14,11 +14,11 @@ const AboutMe = () => {
             >
                 <div className="flex flex-col gap-9">
                     <div className="flex w-full items-center justify-center">
-                        <h1 className="text-4xl">Know Who <span className="text-[#76d32e]">I AM</span></h1>
+                        <h1 className="text-4xl font-medium">Know Who <span className="text-[#76d32e]">I AM</span></h1>
                     </div>
                     <div className="flex flex-col gap-5">
                         <p className="text-[20px] font-medium leading-loose">
-                            Hi again! <span className="text-[#76d32e] font-bold">I&apos;m Gideon Ayeni</span>, a software engineer based in <span className="text-[#76d32e] font-bold">England, UK</span> with a passion for building <span className="text-[#76d32e]">scalable software solutions</span> that solve real-world problems.
+                            Hi again! <span className="text-[#76d32e] font-bold">I&apos;m GIDEON AYENI</span>, a software engineer based in <span className="text-[#76d32e] font-bold">England, UK</span> with a passion for building <span className="text-[#76d32e]">scalable software solutions</span> that solve real-world problems.
                         </p>
                         <p className="leading-normal text-[20px] font-medium">
                             My journey into Tech started with a <span className="text-[#76d32e] italic">Bachelor&apos;s</span> degree in <span className="text-[#76d32e] italic">Electrical and Electronics Engineering</span>, followed by a <span className="text-[#76d32e] italic">Master&apos;s</span> in <span className="text-[#76d32e] italic">Robotics </span>and Smart Technologies. This background has given me a strong foundation in both hardware and software systems, allowing me to approach software engineering with a <span className="text-[#76d32e]">unique perspective</span>—focusing on building <span className="text-[#76d32e]">intelligent, efficient, and scalable applications</span>.

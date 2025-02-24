@@ -79,6 +79,31 @@
   .footer {
     background-color: rgb(10, 4, 22);
   }
+
+  
+
+  /* To make Resume on smaller mobile appear uncut */
+  @media only screen and (max-width: 600px) {
+    .react-pdf__Page{
+      padding-left: 155px;
+    }
+  }
+
+  @media only screen and (max-width: 380px) {
+    .react-pdf__Page{
+      padding-left: 195px;
+    }
+  }
+
+  @media only screen and (max-width: 350px) {
+    .react-pdf__Page{
+      padding-left: 200px;
+    }
+  }
+
+  /* end */
+
+
   
 
 

@@ -1,6 +1,3 @@
-# Portfolio-Website-2025
-My personal portfolio website built with React, Tailwind CSS, and Framer Motion
-
 # 🌟 Personal Portfolio Website
 
 Welcome to my personal portfolio website built with **React**, **Tailwind CSS**, and **Framer Motion**. This website showcases my projects, skills, and background in software engineering.
