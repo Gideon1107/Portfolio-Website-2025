@@ -1,7 +1,8 @@
-import footnation from "../assets/footnation.png"
-import devconnect from "../assets/devconnect.png"
-import nikepage from "../assets/nikepage.png"
-import facelogin from "../assets/facelogin.png"
+import footnation from "./footnation.png"
+import devconnect from "./devconnect.png"
+import nikepage from "./nikepage.png"
+import facelogin from "./facelogin.png"
+
 
 const projects = [
     {
