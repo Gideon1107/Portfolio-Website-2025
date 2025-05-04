@@ -1,12 +1,12 @@
 import footnation from "./footnation.png"
-import devconnect from "./devconnect.png"
+import devconnect_app from "./devconnect_app.png"
 import nikepage from "./nikepage.png"
 import facelogin from "./facelogin.png"
 
 
 const projects = [
     {
-        image: devconnect,
+        image: devconnect_app,
         name: "Devconnect",
         description: "DevConnect is a real-time web chat application designed to help developers connect, collaborate, and share ideas seamlessly. It allows users to log in and instantly view other online users to start conversations. Built with a full-stack setup: ReactJS for the frontend, Node.js (with Express.js) for the backend, MongoDB as the database and Socket.io for real-time communication",
         gitLink: "https://github.com/Gideon1107/DevConnect-Chat-App",
