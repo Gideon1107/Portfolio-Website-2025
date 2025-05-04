@@ -4,7 +4,7 @@ import PropTypes from "prop-types"
 
 const ProjectCard = ({image, name, description, gitLink, liveLink, live}) => {
   return (
-    <div className="border-[1px] border-[#76d32e] flex flex-col items-center p-4 sm:p-4 lg:p-8 shadow-[0_0_10px_5px_rgba(34,102,41,0.459)] bg-transparent transition duration-500 ease-in-out hover:scale-101 opacity-90 hover:opacity-100 hover:shadow-[0_0_10px_5px_rgba(44,112,51,0.561)] cursor-pointer">
+    <div className="border-[1px] border-[#76d32e] flex flex-col items-center p-4 sm:p-4 lg:p-8 shadow-[0_0_10px_5px_rgba(34,102,41,0.459)] bg-transparent transition duration-500 ease-in-out hover:scale-101 opacity-90 hover:opacity-100 sm:hover:shadow-[0_0_20px_5px_rgba(44,112,51,0.561)] cursor-pointer">
         <img src={image} alt="" className="w-[400px]"/>
         <div className="pt-4">
             <h1 className="text-xl text-center pb-3">{name}</h1>

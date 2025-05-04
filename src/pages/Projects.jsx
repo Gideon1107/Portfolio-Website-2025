@@ -9,7 +9,7 @@ const Projects = () => {
     initial={{ opacity: 0, y: 30 }} // Start invisible and move up
     animate={{ opacity: 1, y: 0 }} // Fade in and slide into place
     transition={{ duration: 0.9, ease: "easeOut" }} // Smooth transition 
-    className="px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw] text-white pb-10">
+    className="px-6 sm:px-[5vw] md:px-[7vw] lg:px-[9vw] text-white pb-10">
 
       <div className="flex flex-col items-center justify-center gap-3 py-20">
         <h1 className="text-4xl font-medium">My Recent <span className="text-[#76d32e]">Projects</span></h1>
@@ -17,7 +17,7 @@ const Projects = () => {
       </div>
 
       {/* Project cards */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 pb-20">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 pb-20">
 
         {
           projects.map((project) => (

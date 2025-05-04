@@ -13,12 +13,17 @@ import { SiPostman } from "react-icons/si";
 import { DiRedis } from "react-icons/di";
 import { FaSlack } from "react-icons/fa";
 import { FaDocker } from "react-icons/fa";
+import { TbBrandReactNative } from "react-icons/tb";
 
 
 const skills = [
     {
         name: "React",
         icon: <FaReact size={30}/>
+    },
+    {
+        name: "React-Native",
+        icon: <TbBrandReactNative size={30}/>
     },
     {
         name: "Javascript",

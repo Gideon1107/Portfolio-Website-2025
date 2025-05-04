@@ -7,10 +7,10 @@ const Info = () => {
        <div className="flex flex-col gap-10">
             <h1 className="text-4xl font-medium text-white lg:pl-10 max-sm:text-center p-1">LET ME <span className="text-[#76d32e]">INTRODUCE</span> MYSELF</h1>
             <div className="flex flex-col gap-5 text-xl">
-                <p className="">I fell in love with programming during my University degree and I have taught myself something, I think… 🤷‍♂️</p>
-                <p>I am proficient in <span className="text-[#76d32e] font-semibold italic">Python, Javascript and Typescript</span>.</p>
-                <p>Passionate about building <span className="text-[#76d32e] font-semibold italic ">Scalable Software Solutions</span> and <span className="text-[#76d32e] font-semibold italic">APIs.</span></p>
-                <p></p>
+              <p className="">I&apos;m a <span className="text-[#76d32e] font-semibold italic">Full-Stack Engineer</span> who thrives on turning complex challenges into intuitive digital experiences.</p>
+              <p>My tech toolkit includes <span className="text-[#76d32e] font-semibold italic">React, React-Native, Node.js, Python, and TypeScript</span>, with a focus on building responsive, accessible and scalable applications.</p>
+              <p>I&apos;m currently exploring <span className="text-[#76d32e] font-semibold italic">AI integration</span> and <span className="text-[#76d32e] font-semibold italic">real-time collaboration tools</span> that enhance how we work and communicate.</p>
+              <p>Let&apos;s connect and discuss how we can build something amazing together!</p>
             </div>
         </div>
     </div>
